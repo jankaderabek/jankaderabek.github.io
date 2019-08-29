@@ -6,23 +6,8 @@
         jankaderabek
       </h1>
       <h2 class="subtitle">
-        My personal website
+        About page
       </h2>
-      <div class="links">
-        <nuxt-link
-          to="/about"
-          class="button--green"
-        >
-          About
-        </nuxt-link>
-        <a
-          href="https://github.com/jankaderabek"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
     </div>
   </div>
 </template>
