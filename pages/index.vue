@@ -28,13 +28,18 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
+import { Vue, Component } from 'vue-property-decorator'
 import Logo from '~/components/Logo.vue'
 
-export default {
+@Component({
+  name: 'delivery-checkout',
   components: {
     Logo
   }
+})
+export default class extends Vue {
+
 }
 </script>
 
