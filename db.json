@@ -1,0 +1,6 @@
+{
+  "talks": [
+    { "title": "Představení frameworku Zend Expressive na akci 25. Sraz Přátel PHP v Brně" },
+    { "title": "Pokročilé tipy s RabbitMQ na akci Poslední sobota 99. - Brno" }
+  ]
+}

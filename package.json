@@ -16,7 +16,8 @@
     "@nuxt/typescript-runtime": "^0.1.3",
     "@nuxtjs/axios": "^5.3.6",
     "nuxt": "^2.0.0",
-    "vue-property-decorator": "latest"
+    "vue-property-decorator": "latest",
+    "vuex-class": "latest"
   },
   "devDependencies": {
     "@nuxt/typescript-build": "^0.1.11",
