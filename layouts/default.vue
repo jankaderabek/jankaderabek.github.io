@@ -31,7 +31,7 @@
       </a>
     </div>
 
-    <nuxt class="container"></nuxt>
+    <nuxt />
   </div>
 </template>
 

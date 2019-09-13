@@ -9,7 +9,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "lint": "eslint --ext .ts,.js,.vue --ignore-path .gitignore .",
+    "lint": "eslint --max-warnings 0 --ext .ts,.js,.vue --ignore-path .gitignore .",
     "deploy": "gh-pages -b master -d dist"
   },
   "dependencies": {
