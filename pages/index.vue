@@ -1,14 +1,23 @@
 <template>
-  <div>
-    <div>
-      <h1 class="title">
-        jankaderabek
-      </h1>
-      <h2 class="subtitle">
-        My personal website
-      </h2>
-    </div>
-  </div>
+  <v-container
+    fill-height="true"
+  >
+    <v-row
+      align="center"
+      justify="center"
+    >
+      <v-col
+        class="text-center"
+      >
+        <h1>
+          Jan Kadeřábek
+        </h1>
+        <p>
+          Web developer
+        </p>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script lang="ts">
