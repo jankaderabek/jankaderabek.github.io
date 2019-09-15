@@ -11,7 +11,8 @@ cache:
     - node_modules
 
 script:
-  - npm run generate
+  - npm run api & npm run generate
+  - cp db.json dist/
 
 deploy:
   provider: pages
