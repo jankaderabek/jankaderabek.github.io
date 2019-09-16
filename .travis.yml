@@ -11,6 +11,7 @@ cache:
     - node_modules
 
 script:
+  - cp .env.prod .env
   - npm run api & npm run generate
   - cp db.json dist/
 
