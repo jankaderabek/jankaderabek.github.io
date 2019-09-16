@@ -13,5 +13,7 @@ jobs:
       uses: actions/setup-node@v1
     - name: Npm install
       run: npm install
+    - name: Preprare enviroment variables
+      run: cp .env.local .env
     - name: Run cypress E2E tests
       run: npm run ci-test
