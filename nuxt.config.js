@@ -44,7 +44,10 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/dotenv'
+    '@nuxtjs/dotenv',
+    function () {
+      this.nuxt.options.extensions.push('ts')
+    }
   ],
   /*
   ** Axios module configuration
