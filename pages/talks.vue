@@ -1,15 +1,33 @@
 <template>
-  <div>
-    <div>
+  <v-container>
+    <v-row>
       <h2 class="subtitle">
         Přednášky
       </h2>
+    </v-row>
 
-      <div v-for="talk in talks" :key="talk.name">
-        {{ talk.title }}
-      </div>
-    </div>
-  </div>
+    <v-row v-for="talk in talks" :key="talk.name">
+      <v-col cols="12">
+        <v-card>
+          <v-card-title>{{ talk.title }}</v-card-title>
+
+          <v-card-text>{{ talk.date }}</v-card-text>
+
+          <v-card-actions>
+            <v-btn
+              text
+              target="_blank"
+              :href="talk.link"
+            >
+              Odkaz
+            </v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-col>
+
+      <v-spacer />
+    </v-row>
+  </v-container>
 </template>
 
 <script lang="ts">

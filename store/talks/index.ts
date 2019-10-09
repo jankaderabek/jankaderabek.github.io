@@ -1,5 +1,7 @@
 export interface Talk {
-  title: string
+  title: string,
+  date: string,
+  link: string
 }
 
 export interface TalksState {
