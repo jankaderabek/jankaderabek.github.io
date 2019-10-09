@@ -1,6 +1,19 @@
 {
   "talks": [
-    { "title": "Představení frameworku Zend Expressive na akci 25. Sraz Přátel PHP v Brně" },
-    { "title": "Pokročilé tipy s RabbitMQ na akci Poslední sobota 99. - Brno" }
+    {
+      "title": "Představení frameworku Zend Expressive na akci 25. Sraz Přátel PHP v Brně",
+      "link": "https://www.slideshare.net/slideshow/embed_code/key/6uWe48hxj1hMPg",
+      "date": "2019-02-20"
+    },
+    {
+      "title": "Cesta k frontendové revoluci na běžícím projektu v podání Vue.js na akci Velikonoční 27. Sraz Přátel PHP v Brně",
+      "link": "https://www.slideshare.net/JanKadebek/cesta-k-frontendov-revoluci-na-bcm-projektu-v-podn-vuejs-na-akci-velikonon-27-sraz-ptel-php-v-brn",
+      "date": "2019-04-17"
+    },
+    {
+      "title": "Pokročilé tipy s RabbitMQ na akci Poslední sobota 99. - Brno",
+      "link": "https://www.slideshare.net/slideshow/embed_code/key/5zv9jukZXUPknT",
+      "date": "2018-10-20"
+    }
   ]
 }
