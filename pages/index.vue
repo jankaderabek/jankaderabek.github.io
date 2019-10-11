@@ -8,6 +8,7 @@
     >
       <v-col
         class="text-center"
+        cols="3"
       >
         <h1>
           Jan Kadeřábek
