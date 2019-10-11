@@ -3,7 +3,8 @@ on:
     push:
         branches:
             - source
-    repository_dispatch: {}
+    repository_dispatch:
+        event_type: deploy
 
 jobs:
     build-and-deploy:
