@@ -1,10 +1,9 @@
 name: Build and Deploy
-on: [
+on:
     push:
         branches:
             - source
-    repository_dispatch
-]
+    repository_dispatch: {}
 
 jobs:
     build-and-deploy:
